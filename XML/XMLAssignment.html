@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XML Assignments</title>
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: radial-gradient(circle at top left, #fffde7, #ffe082);
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fbc02d;
+      margin-bottom: 40px;
+      font-size: 2.8rem;
+      text-shadow: 2px 2px 4px #fff;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .assignment-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 15px;
+      background: linear-gradient(145deg, #d19dff, #ffffff);
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      color: #795548;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .assignment-btn i {
+      transition: transform 0.3s ease;
+    }
+
+    .assignment-btn:hover {
+      background: linear-gradient(145deg, #ffee58, #fffde7);
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    }
+
+    .assignment-btn:hover i {
+      transform: rotate(10deg) scale(1.2);
+    }
+
+    .assignment-btn:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>XML Assignments</h1>
+  <div class="container">
+    <a class="assignment-btn" href="Rule.xml" target="_blank"><i class="fas fa-folder"></i> Assignment No 1</a>
+    <a class="assignment-btn" href="Employee.xml" target="_blank"><i class="fas fa-folder"></i> Assignment No 2</a>
+    <a class="assignment-btn" href="library.xml" target="_blank"><i class="fas fa-folder"></i> Assignment No 3</a>
+    <a class="assignment-btn" href="student.xml" target="_blank"><i class="fas fa-folder"></i> Assignment No 4</a>
+  </div>
+</body>
+</html>
