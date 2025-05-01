@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Web Assignments</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 40px;
+      font-size: 2.8rem;
+      text-shadow: 2px 2px 4px #fff;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .assignment-btn {
+      width: 100%;
+      padding: 15px;
+      background: linear-gradient(90deg, #74ebd5, #acb6e5);
+      border: none;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      color: #2c3e50;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .assignment-btn:hover {
+      background: linear-gradient(90deg, #acb6e5, #74ebd5);
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    }
+
+    .assignment-btn:active {
+      transform: scale(0.97);
+    }
+
+    .assignment-btn i {
+      transition: transform 0.3s ease;
+    }
+
+    .assignment-btn:hover i {
+      transform: rotate(20deg) scale(1.2);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Web Assignments</h1>
+  <div class="container">
+    <a class="assignment-btn" href="HTMLAssignment.html" target="_blank"><i class="fas fa-code"></i> HTML Assignments</a>
+    <a class="assignment-btn" href="CSSAssignment.html" target="_blank"><i class="fas fa-paint-brush"></i> CSS Assignments</a>
+    <a class="assignment-btn" href="XMLAssignment.html" target="_blank"><i class="fas fa-database"></i> XML Assignments</a>
+  </div>
+</body>
+</html>
